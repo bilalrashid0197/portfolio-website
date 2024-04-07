@@ -14,7 +14,7 @@ export default function Home() {
       <header>
         <a href="#" className="logo-holder">
             <div className="logo">BR</div>
-            <div className="logo-text">Portfolio Website</div>
+            <div className="logo-text">Bilal's Portfolio</div>
         </a>
         <nav>
             <ul id="menu" className={menuOpen ? "active": ""}>
@@ -48,16 +48,16 @@ export default function Home() {
                   <h1><small>Hi I'm</small>
                     Bilal Rashid
                   </h1>
-                  <p>Design and Developer in Canada who creates website using HTML, CSS, and JavScript.<span>I'm interested in AI topics which why I also added thing like ChatGPT into my projects these day.</span></p>
+                  <p>Specializing in crafting robust and engaging websites, I am a Full-Stack Developer from Canada with a command over HTML, CSS, JavaScript, and the MERN stack.<span> Explore my portfolio to see how I transform ideas into fully realized web experiences.</span></p>
                   <div className="call-to-action">
                     <a href="./Bilal_Rashid_Resume.pdf" className="button black">View Resume</a>
                     <a href="mailto:rash8510@mylaurier.ca" className="button white">Contact Me</a>
                   </div>
                   <div className="social-links">
-                    <a href="#">
+                    <a href="https://github.com/bilalrashid0197">
                     <img src="./imgs/github.png" alt="GitHub" width="48px" />
                     </a>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/bilal-rashid-a04625198/">
                     <img src="/imgs/linkedin.png" alt="LinkedIn" width="48px" />
                     </a>
                   </div>
@@ -70,6 +70,7 @@ export default function Home() {
         <section className="logos container">
             <div className="marquee">
               <div className="track">
+                  <img src="/imgs/python.png" alt="Python" width="128px" />
                   <img src="/imgs/typescript.png" alt="TypeScript" width="128px" />
                   <img src="/imgs/html.png" alt="HTML" width="128px" />
                   <img src="/imgs/css.png" alt="CSS" width="128px" />
@@ -91,6 +92,7 @@ export default function Home() {
                   <img src="/imgs/MySQL.png" alt="MySQL" width="128px" />
                   <img src="/imgs/Heroku.png" alt="Heroku" width="128px" />
                   <img src="/imgs/github.png" alt="GitHub" width="128px" />
+                  <img src="/imgs/python.png" alt="Python" width="128px" />
                   <img src="/imgs/typescript.png" alt="TypeScript" width="128px" />
                   <img src="/imgs/html.png" alt="HTML" width="128px" />
                   <img src="/imgs/css.png" alt="CSS" width="128px" />
@@ -124,18 +126,36 @@ export default function Home() {
               <div className="left-column">
                   <h3>Frontend</h3>
                   <ul>
+                    <li>TypeScript</li>
                     <li>HTML</li>
                     <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>NextJS</li>
+                    <li>React</li>
+                    <li>Tailwind CSS</li>
                   </ul>
                   <h3>Backend</h3>
                   <ul>
-                    <li>Express</li>
+                    <li>Express JS</li>
+                    <li>MongoDB</li>
+                    <li>Node JS</li>
+                    <li>Prisma</li>
+                    <li>AWS RDS</li>
+                    <li>MySQL</li>
+                    <li>Python</li>
                   </ul>
               </div>
               <div className="right-column">
                   <h3>A bit about me</h3>
-                  <p>Hi I'm Bilal</p>
-                  <p>My name is bilal</p>
+                  <p>
+                    Hello! I’m Bilal, a computer science student with a zest for web development. I delve into coding with the aim to innovate and simplify the user experience 🌐. My mantra is clean, responsive design and purposeful functionality in every project I tackle.
+                  </p>
+                  <p>
+                    In moments away from the keyboard, I’m either lost in the pages of a riveting book 📖, hiking scenic trails 🌲, or shooting hoops 🏀. These activities recharge my creativity and contribute to a balanced approach to my coding projects.
+                  </p>
+                  <p>
+                    I'm dedicated to crafting digital experiences that resonate, blending analytical prowess with the subtle art of design, one line of code at a time.
+                  </p>
               </div>
             </div>
         </section>
@@ -148,83 +168,64 @@ export default function Home() {
               <article>
                   <figure>
                     <div>
-                        <img src="/imgs/MLSE.png"  alt="" width="100%"/>
+                        <img src="/imgs/mlse.jpeg"  alt="MLSE" width="100%" height="100%"/>
                         <figcaption>
-                          Workplace - 1
+                          MLSE (Maple Leaf Sports & Entertainment)
                         </figcaption>
                     </div>
                   </figure>
-                  <h3>MLSE</h3>
-                  <div>2023</div>
-                  <p>Info about job</p>
+                  <h3>Digital Operations Analyst (Internship)</h3>
+                  <div>Jan 2024 - Apr 2024</div>
+                  <p>Drove digital engagement for MLSE, creating interactive campaigns that netted 6,000+ sign-ups. Spearheaded analytics dashboards, enhancing decision-making and streamlining performance reporting.</p>
               </article>
               <article>
                   <figure>
                     <div>
-                        <img src="/imgs/WLU.png"  alt="" width="100%"/>
+                        <img src="https://getvectorlogo.com/wp-content/uploads/2023/05/wilfrid-laurier-university-vector-logo.png"  alt="Wilfrid Laurier University" width="100%" height="90%" />
                         <figcaption>
-                          Workplace - 2
+                         Wilfrid Laurier University
                         </figcaption>
                     </div>
                   </figure>
-                  <h3>MLSE</h3>
-                  <div>2023</div>
-                  <p>Info about job</p>
+                  <h3>Science Communication Writer</h3>
+                  <div>Oct 2023 - Apr 2024</div>
+                  <p>Utilized HTML and CSS to craft and execute a strategic science communication plan, producing engaging and accessible content that significantly enhanced reader interaction and digital presence.</p>
               </article>
               <article>
                   <figure>
                     <div>
-                        <img src="/imgs/Simplii.png"  alt="" width="100%"/>
+                        <img src="/imgs/Simplii.png"  alt="Simplii Financial" width="100%" height="100%"/>
                         <figcaption>
-                          Workplace - 3
+                          Simplii Financial (CIBC)
                         </figcaption>
                     </div>
                   </figure>
-                  <h3>MLSE</h3>
-                  <div>2023</div>
-                  <p>Info about job</p>
+                  <h3>Product Owner (Internship)</h3>
+                  <div>Aug 2022 - Apr 2023</div>
+                  <p>Pioneered customer service automation at Simplii, achieving a 9% decrease in call volume and enhanced agile development, directly contributing to a new market-competitive feature.</p>
               </article>
             </div>
         </section>
-        <section id="projects" className="bento container">
-            <h2>
-              <small>Recent</small>
-              Personal Projects
-            </h2>
-            <div className="bento-grid">
-              <div className="bento-item">
-                  <a href="#" className="bento-item">
-                  <img src="" alt="" width="100%" />
-                  </a>
-              </div>
-              <div className="bento-item">
-                  <a href="#" className="bento-item">
-                  <img src="" alt="" width="100%" />
-                  </a>
-              </div>
-              <div className="bento-item">
-                  <a href="#" className="bento-item">
-                  <img src="" alt="" width="100%" />
-                  </a>
-              </div>
-              <div className="bento-item">
-                  <a href="#" className="bento-item">
-                  <img src="" alt="" width="100%" />
-                  </a>
-              </div>
-              <div className="bento-item">
-                  <a href="#" className="bento-item">
-                  <img src="" alt="" width="100%" />
-                  </a>
-              </div>
-              <div className="bento-item">
-                  <a href="#" className="bento-item">
-                  <img src="" alt="" width="100%" />
-                  </a>
-              </div>
-            </div>
-        </section>
-        <section className="chatbot container">
+        <section id="projects" class="bento container">
+          <h2>
+            <small>
+              Portfolio
+            </small>
+            Projects
+          </h2>
+          <div class="bento-grid">
+            <a href="https://github.com/bilalrashid0197/HackTheNorth-CiteMe" class="bento-item">
+              <img src="./imgs/citeme.png" alt="Cite Me" width="100%" height="100%" />
+            </a>
+            <a href="https://thedailyblog-cef4de6cc286.herokuapp.com/" class="bento-item">
+              <img src="./imgs/thedailyblog.png" alt="The Digital Blog" width="100%" height="100%"/>
+            </a>
+            <a href="https://stockpeer-3495602137c6.herokuapp.com/" class="bento-item">
+              <img src="./imgs/stockpeer.png" alt="Stock Peer" width="100%" height="100%" />
+            </a>
+          </div>
+		    </section>
+        {/*<section className="chatbot container">
             <h2>
               <small>
               Talk to me
@@ -261,7 +262,7 @@ export default function Home() {
                   </div>
               </div>
             </div>
-        </section>
+          </section>*/}
       </main>
     </>
   );
