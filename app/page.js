@@ -148,14 +148,11 @@ export default function Home() {
               <div className="right-column">
                   <h3>A bit about me</h3>
                   <p>
-                    Hello! I’m Bilal, a computer science student with a zest for web development. I delve into coding with the aim to innovate and simplify the user experience 🌐. My mantra is clean, responsive design and purposeful functionality in every project I tackle.
-                  </p>
+                    Hello! I’m Bilal, a computer science student with a passion for web development. I delve into coding with the aim of innovating and simplifying the user experience 🌐. My ultimate goal is to provide clean, responsive design and purposeful functionality in every project I tackle.</p>
                   <p>
-                    In moments away from the keyboard, I’m either lost in the pages of a riveting book 📖, hiking scenic trails 🌲, or shooting hoops 🏀. These activities recharge my creativity and contribute to a balanced approach to my coding projects.
+                  Away from the keyboard, I engage in diverse activities such as reading compelling literature 📖, hiking through trails 🌲, and playing basketball 🏀. These activities not only rejuvenate my creativity but also enhance my professional approach to software development.
                   </p>
-                  <p>
-                    I'm dedicated to crafting digital experiences that resonate, blending analytical prowess with the subtle art of design, one line of code at a time.
-                  </p>
+                  <p>Thank you for exploring my portfolio. If you're interested in innovative, user-centric web solutions, let’s connect and discuss how we can collaborate!</p>
               </div>
             </div>
         </section>
@@ -202,7 +199,7 @@ export default function Home() {
                   </figure>
                   <h3>Product Owner (Internship)</h3>
                   <div>Aug 2022 - Apr 2023</div>
-                  <p>Pioneered customer service automation at Simplii, achieving a 9% decrease in call volume and enhanced agile development, directly contributing to a new market-competitive feature.</p>
+                  <p>Led the development of Simplii's first market-facing virtual assistant, spearheading automation efforts that resulted in a 9% reduction in call volume and enhanced service efficiency.</p>
               </article>
             </div>
         </section>
@@ -220,7 +217,7 @@ export default function Home() {
             <a href="https://thedailyblog-cef4de6cc286.herokuapp.com/" class="bento-item">
               <img src="./imgs/thedailyblog.png" alt="The Digital Blog" width="100%" height="100%"/>
             </a>
-            <a href="https://stockpeer-3495602137c6.herokuapp.com/" class="bento-item">
+            <a href="https://stock-peer-960d0769310e.herokuapp.com/" class="bento-item">
               <img src="./imgs/stockpeer.png" alt="Stock Peer" width="100%" height="100%" />
             </a>
           </div>
